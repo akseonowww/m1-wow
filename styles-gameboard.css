@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
 body {
-	overflow-x: hidden !important;
+  overflow-x: hidden !important;
 }
 
 .block.games-market,
@@ -12,7 +10,7 @@ body {
 .VueGamesTopweek.block,
 .header-menu, a.header-logo div,
 ._fullscreen {
-    display: none !important;
+  display: none !important;
 }
 
 .table, .table-body, .table-gameover, .table-jokes ._ontable {
@@ -97,8 +95,8 @@ body {
 }
 
 .table, .table-body, .table-gameover, .table-jokes ._ontable {
-  width: 100%  !important;
-  height: 100%  !important;
+  width: 100% !important;
+  height: 100% !important;
   display: flex !important;
   flex-direction: column !important;
   align-items: center !important;
@@ -144,13 +142,13 @@ body {
 }
 
 .table-body-players-card-body-timer {
-  position: absolute  !important;
-  top: -2px  !important;
-  left: -1px  !important;
-  border-radius: 100%  !important;
-  width: 32px  !important;
-  height: 32px  !important;
-  transform: scale(1)  !important;
+  position: absolute !important;
+  top: -2px !important;
+  left: -1px !important;
+  border-radius: 100% !important;
+  width: 32px !important;
+  height: 32px !important;
+  transform: scale(1) !important;
 }
 
 .table-body-players-card-body-timer div {
@@ -230,34 +228,34 @@ body {
 }
 
 .table-body-players-card-body-timer {
-  position: absolute  !important;
-  top: 22px  !important;
-  left: 50%  !important;
-  border-radius: 100%  !important;
-  width: 32px  !important;
-  height: 32px  !important;
-  transform: scale(1)  !important;
+  position: absolute !important;
+  top: 22px !important;
+  left: 50% !important;
+  border-radius: 100% !important;
+  width: 32px !important;
+  height: 32px !important;
+  transform: scale(1) !important;
   margin-left: -16px !important;
   background: #ffffff !important;
 }
 
 .table-body-players-card-body-timer div {
-  display: flex  !important;
-  justify-content: center  !important;
-  align-items: center  !important;
-  border-radius: 100%  !important;
-  width: 32px  !important;
-  height: 32px  !important;
-  background: transparent  !important;
-  color: #1a1a1a  !important;
-  font-size: 16px  !important;
-  font-weight: 600  !important;
-  z-index: 1  !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border-radius: 100% !important;
+  width: 32px !important;
+  height: 32px !important;
+  background: transparent !important;
+  color: #1a1a1a !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  z-index: 1 !important;
 }
 
 .table-body-board {
-  width: 100vw  !important;
-  height: calc(85vh + 50px)  !important;
+  width: 100vw !important;
+  height: calc(85vh + 50px) !important;
   flex: auto !important;
 }
 
@@ -378,7 +376,7 @@ body {
 }
 
 .table-body-board-fields-one-body {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .table-body-board-fields-one:nth-child(2) .table-body-board-fields-one-body,
@@ -391,7 +389,7 @@ body {
 }
 
 .table-body-board-fields-one:nth-child(12) .table-body-board-fields-one-body,
-.table-body-board-fields-one:nth-child(13) .table-body-board-fields-one-body,	
+.table-body-board-fields-one:nth-child(13) .table-body-board-fields-one-body,
 .table-body-board-fields-one:nth-child(14) .table-body-board-fields-one-body,
 .table-body-board-fields-one:nth-child(15) .table-body-board-fields-one-body,
 .table-body-board-fields-one:nth-child(16) .table-body-board-fields-one-body,
@@ -402,7 +400,7 @@ body {
 }
 
 .table-body-board-fields-one:nth-child(32) .table-body-board-fields-one-body,
-.table-body-board-fields-one:nth-child(33) .table-body-board-fields-one-body,	
+.table-body-board-fields-one:nth-child(33) .table-body-board-fields-one-body,
 .table-body-board-fields-one:nth-child(35) .table-body-board-fields-one-body,
 .table-body-board-fields-one:nth-child(36) .table-body-board-fields-one-body,
 .table-body-board-fields-one:nth-child(38) .table-body-board-fields-one-body,
@@ -439,7 +437,7 @@ body {
 .table-body-board-fields-one:nth-child(28) ._logo,
 .table-body-board-fields-one:nth-child(29) ._logo,
 .table-body-board-fields-one:nth-child(30) ._logo {
-    scale: 0.6 !important;
+  scale: 0.6 !important;
 }
 
 .table-body-board-center {
@@ -602,113 +600,86 @@ body {
 }
 
 .table-gameover-exit, .table-gameover-title {
-  font-weight: 300  !important;
-  line-height: 56px  !important;
-  width: 100%  !important;
-  margin: 0  !important;
-  left: auto  !important;
+  font-weight: 300 !important;
+  line-height: 56px !important;
+  width: 100% !important;
+  margin: 0 !important;
+  left: auto !important;
   display: flex !important;
   justify-content: center !important;
 }
 
 .table-gameover-title {
-  margin-top: 70px  !important;
-  font-weight: 800  !important;
+  margin-top: 70px !important;
+  font-weight: 800 !important;
 }
 
-// .table-body-board-tokens > div {
-//   position: absolute !important;
-//   top: -99999px !important;
-//   left: -99999px !important;
-//   width: 30px !important;
-//   height: 30px !important;
-//   border-radius: 90% !important;
-//   box-shadow: 0 0 15px rgba(0, 0, 0, 0.667) !important;
-//   border: 3px solid rgba(0, 0, 0, 0.5) !important;
-//   z-index: 3 !important;
-//   border: 2px solid #000 !important;
-// }
-
-// body[mnpl-newcolors] .table-body-board-tokens > div:first-child {
-//   background: linear-gradient(45deg, #cd3747, #f26b61) !important;
-//   /* border: 2px solid #000; */
-// }
-
-// body[mnpl-newcolors] .table-body-board-tokens > div:nth-child(2) {
-//   background: linear-gradient(45deg, #54c9f0, #2191e1) !important;
-// }
-
-// body[mnpl-newcolors] .table-body-board-tokens > div:nth-child(3) {
-//   background: linear-gradient(45deg, #66b343, #b0e372) !important;
-// }
-
-// body[mnpl-newcolors] .table-body-board-tokens > div:nth-child(4) {
-//   background: linear-gradient(45deg, #a17fef, #d188e3) !important;
-// }
-
 .TableGeneratorDices {
-    top: 50%;
-    left: 50%;
-    width: 230px;
-    height: 230px;
-    margin-left: -115px;
-    margin-top: -115px;
+  top: 50%;
+  left: 50%;
+  width: 230px;
+  height: 230px;
+  margin-left: -115px;
+  margin-top: -115px;
 }
 
 .table-body-board-fields-one-mortgaged div {
-    flex-shrink: 0;
-    display: flex;
-    justify-content: center;
-    padding: 0 6px;
-    min-width: 22px;
-    height: 22px;
-    background-color: #da4553;
-    border-radius: 99999px;
-    color: #fff;
-    box-shadow: 0 0 5px rgba(0,0,0,.5);
-    flex-direction: column;
-    height: auto;
-    width: 22px;
-    align-items: center;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  padding: 0 6px;
+  min-width: 22px;
+  height: 22px;
+  background-color: #da4553;
+  border-radius: 99999px;
+  color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  flex-direction: column;
+  height: auto;
+  width: 22px;
+  align-items: center;
 }
 
 .table-body-board-fields-one-mortgaged div span {
-	margin-left: 0; 
+  margin-left: 0;
 }
+
 .TableFieldcard {
-    position: absolute;
-    box-shadow: #000 0 0 25px;
-    width: 205px;
-    font-size: 12px;
-    overflow: hidden;
-    z-index: 13;
-    color: var(--color-font);
+  position: absolute;
+  box-shadow: #000 0 0 25px;
+  width: 205px;
+  font-size: 12px;
+  overflow: hidden;
+  z-index: 13;
+  color: var(--color-font);
 }
+
 .TableFieldcard {
-    left: 50% !important;
-    margin-left: -102.5px;
+  left: 50% !important;
+  margin-left: -102.5px;
 }
 
 .table-body-board-fields-one-label div {
-    font-size: 10px;
-    font-weight: 700;
-    font-family: "Oswald", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  font-family: "Oswald", sans-serif;
 }
 
 .table-body-board-fields-one-label div {
-    font-size: 12px;
-    font-weight: 400;
-    font-family: "Oswald", sans-serif;
-    translate: 0 -2px;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+  translate: 0 -2px;
 }
 
 span._big {
-    border-left: 1px solid #796f5a;
-    height: 100%;
-    background: #f6bb43;
-    width: 30% !important;
-    height: 98% !important;
+  border-left: 1px solid #796f5a;
+  height: 100%;
+  background: #f6bb43;
+  width: 30% !important;
+  height: 98% !important;
 }
-.table-body-board-fields-one-level>span._big:before {
-    opacity: 0;
+
+.table-body-board-fields-one-level > span._big:before {
+  opacity: 0;
 }
